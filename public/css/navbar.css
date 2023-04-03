@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    margin-top: 160px;
+}
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar-format-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 10px -7px #1e1e1e;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.navbar-title {
+    font-size: 30px;
+    padding-left: 30px;
+    color: #05c1b1;
+}
+.login-function {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.login-icon > img {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 999em;
+}
+.navbar-button {
+    padding: 20px;
+}
+.navbar-format-display > a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-button:hover{
+    background-color: #c8c8c8;
+}
+.login-button {
+    font-size: 25px;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* bottomBar */
+.Bottom {
+    color: #ffffff;
+}
+.Bottom-Introduce > img {
+    height: 18%;
+    width: 18%;
+}
+.Bottom-Introduce {
+    display: flex;
+    background-color: #363636;
+    justify-content: space-around;
+    padding: 40px 50px;
+    font-size: 16px;
+}
+.Bottom-Button {
+    display: flex;
+    flex-direction: column;
+}
+.Bottom-button > div > a {
+    text-decoration: none;
+    color: #ffffff;
+}  
+.Bottom-button > div {
+    padding-top: 25px;
+}  
+.Bottom-button > div > a:hover {
+    color: #dadada;
+}
+.Bottom-Regulations {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}
