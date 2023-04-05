@@ -17,6 +17,8 @@
     font-size: 16px;
     padding: 10px 70px;
     color: white;
+    border: none;
+    cursor: pointer;
 }
 .buttonR {
     background-color: #A33A3A;
@@ -24,6 +26,8 @@
     font-size: 16px;
     padding: 10px 70px;
     color: white;
+    border: none;
+    cursor: pointer;
 }
 .size{
     padding: 10px 5%;
