@@ -43,9 +43,17 @@ function setHeader() {
                         <img src="../images/cat.png">
                     </div>
                 </a>
-                <div class="login-button">
-                    <i class="fa-solid fa-right-to-bracket"></i>
-                </div>
+                <a href="./main.html">
+                    <i class="login-button fa-regular fa-comment"></i>
+                </a>
+                <a href="./main.html">
+                    <i class="login-button fa-solid fa-right-to-bracket"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="search-bar">
+                <input class="location-title" type="button" value="location">                
             </div>
         </div>
     `
