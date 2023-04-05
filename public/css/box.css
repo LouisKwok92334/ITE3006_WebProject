@@ -1,6 +1,7 @@
 .box {
     display: flex;
     justify-content: center;
+    padding: 10px 70px;
 }
 
 .function-box {
@@ -27,6 +28,48 @@
     color: white;
 }
 
-.function-button{
+.size{
     padding: 10px 5%;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column; 
+    background-color: #CEE8EA;
+    border-radius: 70px;
+    width: 352px;
+    height: 445px;
+    position: relative; 
+}
+
+.product-image{
+    border-radius: 70px 70px 0 0;
+    width: 352px;
+    height: 264px;
+}
+
+.product-commentN {
+    font-size: 32px;
+    width: 100%;
+}
+
+.product-comment {
+    font-size: 24px;
+    top: -20px;
+}
+
+.heart-icon {
+    position: absolute; 
+    right: 15px;
+    bottom: 15px;
+    font-size: 24px;
+    color: #A33A3A;
+    right: 30px;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10%;
 }
