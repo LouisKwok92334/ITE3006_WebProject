@@ -29,7 +29,7 @@
 }
 
 .size{
-    padding: 10px 5%;
+   padding: 10px 5%; 
 }
 
 .product-box {
@@ -50,7 +50,6 @@
 
 .product-commentN {
     font-size: 32px;
-    width: 100%;
 }
 
 .product-comment {
