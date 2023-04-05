@@ -8,12 +8,8 @@ section {
 a {
     text-decoration: none;
 }
-
 /* navbar */
 .navbar-format-display {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     box-shadow: 0 5px 10px -7px #656565;
     background-color: #ffffff;
     position: fixed;
@@ -21,12 +17,18 @@ a {
     width: 100%;
     padding: 10px 0;
 }
+.navbar-button-format {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .navbar-title {
     font-size: 30px;
     padding-left: 30px;
     color: #05c1b1;
 }
-.navbar-format-display > a{
+.navbar-button-format > a{
     color: black;
     text-decoration: none;
 }
@@ -58,6 +60,32 @@ a {
 .login-button:hover {
     background-color: #dadada;
     border-radius: 20px;
+}
+
+/* searchBar */
+.search-bar-display {
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CEE8EA;
+    border-radius: 70px;
+    width: 80%;
+}
+.text-input {
+    width: 100%;
+    border: none;
+    background-color: #CEE8EA;
+}
+.location-button, .search-button{
+    background-color: #3A9CA3;
+    border-radius: 70px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 /* bottomBar */
