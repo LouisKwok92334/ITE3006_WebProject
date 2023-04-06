@@ -2,20 +2,32 @@
 // let productID = urlParams.get("id");
 
 const product = document.querySelector(".product-box-display");
+const userData = [
+    {
+        "name": "HappyCat",
+        "shortName": "@C.A.T",
+        "score": "★★★★✩"
+    },
+    {
+        "name": "AngryCat",
+        "shortName": "IloVeGiRl",
+        "score": "★✩✩✩✩"
+    }
+]
 const productData = [
     {
         "name": "Apple Macbook Air",
         "price": 160,
-        "img": "Macbook.jpg",
+        "photo": "Macbook.jpg",
         "type": "Electronics",
-        "user": "Bosco"
+        "userID": 2
     },
     {
         "name": "",
         "price": 0,
-        "img": ".jpg",
+        "photo": ".jpg",
         "type": "Fashion",
-        "user": "Louis"
+        "userID": 1
     }
 ]
 
