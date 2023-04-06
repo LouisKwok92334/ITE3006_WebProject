@@ -12,15 +12,18 @@
     width: 100%;
     height: 600px;
 }
+
 .size{
     padding: 0 6%; 
 }
+
 .icon-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .select-button {
     display: inline-flex;
     justify-content: center;
@@ -33,12 +36,15 @@
     padding: 15px 32px;
     cursor: pointer;
 }
+
 .hidden-input {
     display: none;
 }
+
 .icon-container .fa-arrow-up-from-bracket {
     font-size: 48px; 
 }
+
 .copyright-container {
     padding: 0 5%; 
     background-color: #356063;
