@@ -71,7 +71,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
 }
 
 .size {
@@ -95,12 +95,12 @@ footer {
 }
 
 .title-size {
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 .login-form {
     padding: 0 20px;
-    max-width: 500px; /* Increase the max-width */
+    max-width: 500px; 
     width: 50%;
     display: flex;
     flex-direction: column;
