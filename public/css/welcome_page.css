@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #4A5564;
+}
+
+.box {
+    display: flex;
+    padding: 10;
+}
+
+.size{
+    padding: 3% 5px; 
+}
+
+.box-image {
+    width: 30%;
+    height: 50%;
+    border-radius: 70px;
+    padding: 0 20px;
+}
+
+.box-text {
+    font-size: 30px;
+    color: #FFFF;
+    font-family: Inter;
+}
+
+
+.use-now-button {
+    background-color: #3A9CA3;
+    border-radius: 70px;
+    font-size: 16px;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.brand {
+    font-size: 24px;
+    color: #3A9CA3;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #3A9CA3;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.copyright-container {
+    padding: 0 5%; 
+    background-color: #3A9CA3;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
