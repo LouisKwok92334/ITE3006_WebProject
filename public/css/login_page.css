@@ -71,7 +71,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
 }
 
 .size {
@@ -95,13 +95,13 @@ footer {
 }
 
 .title-size {
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 .login-form {
     padding: 0 20px;
-    max-width: 500px; /* Increase the max-width */
-    width: 50%; /* Increase the width */
+    max-width: 500px; 
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -125,7 +125,7 @@ footer {
     background-color: #3A9CA3;
     border-radius: 70px;
     font-size: 16px;
-    color: white;
+    color: #FFFFFF;
     margin-top: 20px;
     padding: 15px 32px;
     cursor: pointer;
