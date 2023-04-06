@@ -9,36 +9,6 @@ const userData = [
         "score": "★★★★✩"
     },
     {
-        "name": "AngryCat",
-        "shortName": "@IloVeGiRl",
-        "score": "★✩✩✩✩"
-    },
-    {
-        "name": "PlayfulDog",
-        "shortName": "@D.O.G",
-        "score": "★★✩✩✩"
-    },
-    {
-        "name": "CuriousSquirrel",
-        "shortName": "@SqrlWhisperer",
-        "score": "★★★★★"
-    },
-    {
-        "name": "ChirpyBird",
-        "shortName": "@BirdLover",
-        "score": "★★★✩✩"
-    },
-    {
-        "name": "WiseOwl",
-        "shortName": "@NightThinker",
-        "score": "★★★★✩"
-    },
-    {
-        "name": "LazyPanda",
-        "shortName": "@BambooFan",
-        "score": "★★✩✩✩"
-    },
-    {
         "name": "EnergeticKangaroo",
         "shortName": "@JumpMaster",
         "score": "★★★★★"
