@@ -39,7 +39,7 @@ function setHeader() {
                     </div>
                 </a>
                 <div class="login-function">
-                    <a href="./main.html">
+                    <a href="./login.html">
                         <div class="login-icon">
                             <img src="../images/cat.png">
                         </div>
@@ -47,7 +47,7 @@ function setHeader() {
                     <a href="./main.html">
                         <i class="login-button fa-regular fa-comment"></i>
                     </a>
-                    <a href="welcome_page.html">
+                    <a href="./index.html">
                         <i class="login-button fa-solid fa-right-to-bracket"></i>
                     </a>
                 </div>
