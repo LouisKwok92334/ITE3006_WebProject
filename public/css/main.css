@@ -41,7 +41,7 @@
 .image-box{
     display: flex;
     justify-content: center;
-    padding: 26px 70px;
+    margin: 15px 70px;
 }
 
 .adv-box-display {
@@ -67,7 +67,7 @@
 .product-box-display {
     display: flex;
     justify-content: center;
-    margin: 20px 50px;
+    margin: 6px 50px;
     flex-wrap: wrap;
 }
 
@@ -76,7 +76,7 @@
     flex-direction: column;
     background-color: #CEE8EA;
     border-radius: 30px;
-    margin: 35px;
+    margin: 37px;
 }
 
 .product-image {
@@ -109,3 +109,4 @@
     font-size: 24px;
     color: #A33A3A;
     cursor: point
+}
