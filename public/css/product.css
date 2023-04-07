@@ -32,7 +32,7 @@ section {
     justify-content: space-around;
     align-items: center;
 }
-.fa-solid {
+.product_icon_size {
     font-size: 15px;
     margin-right: 5px;
 }
