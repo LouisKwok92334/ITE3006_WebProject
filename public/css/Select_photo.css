@@ -44,15 +44,3 @@
 .icon-container .fa-arrow-up-from-bracket {
     font-size: 48px; 
 }
-
-.copyright-container {
-    padding: 0 5%; 
-    background-color: #356063;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 14px;
-    margin-top: 68px;
-}
-

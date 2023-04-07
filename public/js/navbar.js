@@ -47,7 +47,7 @@ function setHeader() {
                     <a href="./main.html">
                         <i class="login-button fa-regular fa-comment"></i>
                     </a>
-                    <a href="./main.html">
+                    <a href="welcome_page.html">
                         <i class="login-button fa-solid fa-right-to-bracket"></i>
                     </a>
                 </div>
@@ -64,37 +64,11 @@ function setHeader() {
 }
 function setFooter() {
     bottom.innerHTML += /*html*/ `
-    <div class="Bottom">
-        <div class="Bottom-Introduce">
-            <img src="../images/Xiaoyuan.png">
-            <div class="Bottom-button">
-                <div>
-                    <a href="./index.html">最新消息</a>
-                </div>
-                <div>
-                    <a href="./character.html">角色設定</a>
-                </div>
-            </div>
-            <div class="Bottom-button">
-                <div>
-                    <a href="./strategy.html">遊戲攻略</a>
-                </div>
-                <div>
-                    <a href="./forums.html">討論區</a>
-                </div>
-            </div>
-            <div class="Bottom-button">
-                <div>
-                    <a href="./download.html">遊戲下載</a>
-                </div>
-                <div>
-                    <a href="./contact.html">聯絡我們</a>
-                </div>
-            </div>
-        </div>
-        <div class="Bottom-Regulations">© 2022 Xiaoyuan’ Adventures All rights reserved.</div>
-    </div>
+    <div class="copyright-container">
+        © 2023 CHANGE
+    </div> 
     `
 }
 
 setHeader();
+setFooter();
