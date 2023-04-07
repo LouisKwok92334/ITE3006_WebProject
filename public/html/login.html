@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <script src="https://kit.fontawesome.com/22b529d74e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body class="body">
+    <header>
+        <nav class="navbar">
+            <a href="#" class="brand">CHANGE</a>
+            <ul class="nav-links">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form id="login">
+            <div class="size">
+                <div class="box">
+                    <img src="../images/login.jpeg" class="box-image">
+                    <div class="login-form">
+                        <div class="form-group">
+                            <p class="title">Good to see you again</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="login-text">Email:</label>
+                            <input type="email" name="login_email" required="required" placeholder="Enter your email: bosco@gmail.com" class= "login-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="login-text">Password:</label>
+                            <input type="password" name="login_password" required="required" placeholder="Enter your password: 1314520" class="login-input">
+                        </div>
+                        <div class="create_account-container">
+                            <span id="create_account" class="create_account_title">don’t have an account?</span>
+                            <span class="create_account_title">forget password?</span>
+                        </div>
+                        <div id="login_message"></div>
+                        <input type="submit"  class="login-button" value="Login">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="copyright-container">
+            © 2023 CHANGE
+        </div>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+</html>
