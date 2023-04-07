@@ -39,7 +39,7 @@ function setHeader() {
                     </div>
                 </a>
                 <div class="login-function">
-                    <a href="./login.html">
+                    <a href="./profile.html">
                         <div class="login-icon">
                             <img src="../images/cat.png">
                         </div>
