@@ -47,7 +47,7 @@ function setHeader() {
                     <a href="./main.html">
                         <i class="login-button fa-regular fa-comment"></i>
                     </a>
-                    <a href="./main.html">
+                    <a href="welcome_page.html">
                         <i class="login-button fa-solid fa-right-to-bracket"></i>
                     </a>
                 </div>

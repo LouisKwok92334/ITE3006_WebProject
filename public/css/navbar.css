@@ -4,6 +4,7 @@ body {
 }
 section {
     margin-top: 160px;
+    margin-bottom: 80px;
 }
 a {
     text-decoration: none;
@@ -102,5 +103,4 @@ a {
     align-items: center;
     color: white;
     font-size: 14px;
-    margin-top: 68px;
 }
