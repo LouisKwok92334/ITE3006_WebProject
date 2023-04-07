@@ -71,7 +71,7 @@ const productData = [
     {
         "name": "Samsung Galaxy S22 Ultra",
         "price": 900,
-        "photo": ["galaxyS22.jpg", "galaxyS22-1.jpg", "galaxyS22-2.jpg"],
+        "photo": ["galaxyS22u.jpg", "galaxyS22u-1.jpg", "galaxyS22u-2.jpg"],
         "type": "Electronics",
         "userID": 7
     },
