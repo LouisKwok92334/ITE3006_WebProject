@@ -84,6 +84,7 @@
     width: 200px;
     height: 160px;
     cursor: pointer;
+    object-fit: cover;
 }
 
 .product-text {
