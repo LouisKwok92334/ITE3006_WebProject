@@ -91,36 +91,16 @@ a {
 }
 
 /* bottomBar */
-.Bottom {
-    color: #ffffff;
-}
-.Bottom-Introduce > img {
-    height: 18%;
-    width: 18%;
-}
-.Bottom-Introduce {
+.copyright-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0 5%; 
+    background-color: #356063;
+    height: 50px;
     display: flex;
-    background-color: #363636;
-    justify-content: space-around;
-    padding: 40px 50px;
-    font-size: 16px;
-}
-.Bottom-Button {
-    display: flex;
-    flex-direction: column;
-}
-.Bottom-button > div > a {
-    text-decoration: none;
-    color: #ffffff;
-}  
-.Bottom-button > div {
-    padding-top: 25px;
-}  
-.Bottom-button > div > a:hover {
-    color: #dadada;
-}
-.Bottom-Regulations {
-    text-align: center;
-    background-color: #000000;
-    padding: 10px;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 68px;
 }
