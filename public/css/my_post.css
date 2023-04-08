@@ -32,8 +32,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 15px;
-    height: 80px;
+    padding: 0 17px;
+    height: 100px;
 }
 
 .product-name {
@@ -42,15 +42,6 @@
 
 .product-cost {
     font-size: 14px;
-}
-
-.heart-icon {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 20px 10px 0;
-    font-size: 24px;
-    color: #A33A3A;
-    cursor: point
 }
 
 /* My profile */

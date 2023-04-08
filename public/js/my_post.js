@@ -49,9 +49,6 @@ function setProduct() {
                     <span class="product-name">${productData[i].name.substring(0,17)}</span>
                     <span class="product-cost">HK$${productData[i].price}/day</span>
                 </div>
-                <div class="heart-icon">
-                    <i class="fas fa-heart"></i>
-                </div>
             </div>
         `
     }
