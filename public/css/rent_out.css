@@ -33,6 +33,14 @@
     padding: 15px 32px;
     cursor: pointer;
 }
+
+.select-button:hover {
+    background-color: #2E7B84;
+  }
+  
+  .select-button:last-child {
+    margin-right: 0;
+  }
 .hidden-input {
     display: none;
 }
