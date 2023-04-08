@@ -1,6 +1,13 @@
 const product = document.querySelector(".product-box-display");
 const productData = [
     {
+        "name": "Apple Macbook Air",
+        "price": 1200,
+        "photo": ["macbook.jpg", "macbook-1.jpg", "macbook-2.jpg"],
+        "type": "Electronics",
+        "userID": 2
+    },
+    {
         "name": "Nike Running Shoes",
         "price": 100,
         "photo": ["nikeShoes.jpeg", "nikeShoes-1.jpg", "nikeShoes-2.jpg"],
@@ -28,13 +35,6 @@ const productData = [
         "type": "Fashion",
         "userID": 8
     },
-    {
-        "name": "Honda Civic",
-        "price": 22000,
-        "photo": ["hondaCivic.jpg", "hondaCivic-1.jpg", "hondaCivic-2.jpg"],
-        "type": "Cars",
-        "userID": 10
-    }
 ]
 
 function setProduct() {
