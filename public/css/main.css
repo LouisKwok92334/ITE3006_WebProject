@@ -43,25 +43,21 @@
     justify-content: center;
     margin: 15px 70px;
 }
-
 .adv-box-display {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-
 .adv-box {
     border-radius: 70px;
     font-size: 16px;
     align-items: center; 
 }
-
 .adv-display {
     border-radius: 30px;
     max-width: 100%;
     max-height: 100%;
 }
-
 
 /* product */
 .product-box-display {
