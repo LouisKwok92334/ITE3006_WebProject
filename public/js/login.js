@@ -14,7 +14,7 @@ const account_date = [
 ]
 
 function load_form() {
-    login ? login_form() : create_from();
+    login ? login_form() : create_form();
 }
 
 function login_form() {
@@ -86,7 +86,7 @@ function login_form() {
     })
 }
 
-function create_from() {
+function create_form() {
     input_form.innerHTML = /*html*/`
         <form id="create">
             <div class="size">
@@ -116,6 +116,6 @@ function create_from() {
     `
     document.querySelector("#back_login").addEventListener('click', function() {
         login = !login;
-        login_form();
+        load_form();
     })
 }
