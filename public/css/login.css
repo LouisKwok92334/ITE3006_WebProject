@@ -31,7 +31,7 @@ body {
     color: #3A9CA3;
 }
 
-/* section */
+/* section login */
 .size {
     padding: 3% 5px;
 }
@@ -123,6 +123,52 @@ body {
 }
 .create_account_title:hover{
     color: #3A9CA3;
+}
+
+/* section create */
+.create-form {
+    padding: 0 20px;
+    max-width: 500px; 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.create-text{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Mina;
+}
+.create-input {
+    border-radius: 70px;
+    padding: 15px 20px;
+}
+.create-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A9CA3;
+    border-radius: 70px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+.back_login_title {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.back_login_title:hover{
+    color: #3A9CA3;
+}
+.fa-rotate-left {
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 /* footer */
