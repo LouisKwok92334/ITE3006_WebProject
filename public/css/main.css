@@ -33,6 +33,17 @@
     cursor: pointer;
 }
 
+.buttonR:hover,
+.button:hover {
+  background-color: #2E7B84;
+}
+
+.buttonR:last-child,
+.button:last-child {
+  margin-right: 0;
+}
+
+
 .size {
     padding: 10px 5%;
 }

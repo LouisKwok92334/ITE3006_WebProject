@@ -1,13 +1,13 @@
 .title {
     text-align: left;
     font-size: 23px; 
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 /* Container */
 .container {
     display: flex;
-    margin: 10px;
+    margin: 20px;
 }
 
 /* product */
