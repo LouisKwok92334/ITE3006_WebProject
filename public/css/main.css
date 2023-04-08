@@ -62,7 +62,7 @@
 /* product */
 .product-box-display {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin: 6px 50px;
     flex-wrap: wrap;
 }
