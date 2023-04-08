@@ -4,7 +4,6 @@
     justify-content: center;
     padding: 10px 70px;
 }
-
 .function-box {
     display: flex;
     justify-content: center;
@@ -12,7 +11,6 @@
     border-radius: 70px;
     width: 100%;
 }
-
 .button {
     background-color: #3A9CA3;
     border-radius: 70px;
@@ -22,7 +20,6 @@
     border: none;
     cursor: pointer;
 }
-
 .buttonR {
     background-color: #A33A3A;
     border-radius: 70px;
@@ -32,18 +29,12 @@
     border: none;
     cursor: pointer;
 }
-
-.buttonR:hover,
-.button:hover {
+.buttonR:hover .button:hover {
   background-color: #2E7B84;
 }
-
-.buttonR:last-child,
-.button:last-child {
+.buttonR:last-child .button:last-child {
   margin-right: 0;
 }
-
-
 .size {
     padding: 10px 5%;
 }
@@ -73,11 +64,10 @@
 /* product */
 .product-box-display {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     margin: 6px 50px;
     flex-wrap: wrap;
 }
-
 .product-box {
     display: flex;
     flex-direction: column;
@@ -85,7 +75,6 @@
     border-radius: 30px;
     margin: 37px;
 }
-
 .product-image {
     border-radius: 30px 30px 0 0;
     width: 200px;
@@ -93,7 +82,6 @@
     cursor: pointer;
     object-fit: cover;
 }
-
 .product-text {
     display: flex;
     flex-direction: column;
@@ -101,15 +89,12 @@
     padding: 0 15px;
     height: 80px;
 }
-
 .product-name {
     font-weight: bold;
 }
-
 .product-cost {
     font-size: 14px;
 }
-
 .heart-icon {
     display: flex;
     justify-content: flex-end;
