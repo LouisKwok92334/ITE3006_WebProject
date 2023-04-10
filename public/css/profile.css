@@ -1,79 +1,101 @@
-.box {
+.title {
+    text-align: left;
+    font-size: 23px; 
+    margin-left: 110px;
+}
+
+/* Container */
+.container {
     display: flex;
     justify-content: center;
-    padding: 10px 70px;
-  }
-  
-  .profile-photo-size {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-  }
-  
-  .public-profile-size {
-    display: flex;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .function {
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 70px;
-    background-color: #3A9CA3;
-    color: white;
-    margin-bottom: 10px;
-    width: 150px;
-    text-align: center; 
-  }
-  .hidden-input {
-    display: none;
+    padding: 0 50px;
 }
-  .button:hover {
-    background-color: #2E7B84;
-  }
-  
-  .button:last-child {
-    margin-right: 0;
-  }
-  
-  .edit-box {
+
+/* product */
+.product-box-display {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-box {
     display: flex;
     flex-direction: column;
     background-color: #CEE8EA;
     border-radius: 30px;
-    padding: 30px;
-    width: 59%;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  textarea {
-    border-radius: 70px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .myprofile-image {
+    margin: 37px;
+}
+
+.product-image {
+    border-radius: 30px 30px 0 0;
+    width: 200px;
+    height: 160px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 17px;
+    height: 100px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-cost {
+    font-size: 14px;
+}
+
+/* My profile */
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 6px 50px;
+}
+.profile_box {
+    background-color: #CEE8EA;
+    height: 350px;
+    padding: 30px 60px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.edit_button {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: black;
+}
+.edit_button :hover{
+    color: #5d5d5d;
+}
+.myprofile-image {
     border-radius: 50%;
     width: 180px;
     height: 180px;
     cursor: pointer;
     object-fit: cover;
-    margin-bottom: 20px;
-  }
-  
-  .photo-text {
-    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+.myprofile-display {
+    display: flex;
     flex-direction: column;
-  }
-  
+    align-items: center;
+}
+
+.myprofile-text {
+    margin-bottom: 8px;
+}
+.star-rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.star-rating .fas {
+    color: rgb(0, 0, 0);
+}

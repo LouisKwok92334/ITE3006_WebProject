@@ -5,7 +5,7 @@ const productData = [
         "price": 1200,
         "photo": ["macbook.jpg", "macbook-1.jpg", "macbook-2.jpg"],
         "type": "Electronics",
-        "userID": 2
+        "userID": 1
     },
     {
         "name": "Nike Running Shoes",
@@ -19,21 +19,21 @@ const productData = [
         "price": 18000,
         "photo": ["toyotaCorolla.jpg", "toyotaCorolla-1.jpg"],
         "type": "Cars",
-        "userID": 4
+        "userID": 1
     },
     {
         "name": "Samsung Galaxy S22 Ultra",
         "price": 900,
         "photo": ["galaxyS22u.jpg", "galaxyS22u-1.jpg", "galaxyS22u-2.jpg"],
         "type": "Electronics",
-        "userID": 7
+        "userID": 1
     },
     {
         "name": "Gucci Handbag",
         "price": 1200,
         "photo": ["gucciHandbag.jpg", "gucciHandbag-1.jpg", "gucciHandbag-2.jpg"],
         "type": "Fashion",
-        "userID": 8
+        "userID": 1
     },
 ]
 

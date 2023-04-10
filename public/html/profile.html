@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile</title>
+    <title>My Post</title>
     <script src="https://kit.fontawesome.com/22b529d74e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/profile.css">
     <link rel="shortcut icon" href="../images/title_icon.ico" type="image/x-icon">
 </head>
-
 <body>
     <header></header>
-<section>
-  <div class="box">
-    <div class="function">
-      <a href="../html/profile.html" class="button">Edit profile</a>
-      <a href="../html/profile_password.html" class="button">Change Password</a>
-    </div>
-    <div class="edit-box">
-      <h2>Edit profile</h2>
-      <h3>Profile photo</h3>
-      <div class="profile-photo-size">
-        <div class="myprofile-display">
-          <img src="../images/cat.png" alt="myprofile_image" class="myprofile-image">
+    <section>
+        <div class="title">
+            <h1>My Post</h1>
         </div>
-          <div class="photo-text">
-            <p>Clear frontal face photos are an important way for buyers 
-              and sellers to learn about each other.</p>
-            <input type="file" id="select-button" class="hidden-input" name="filename">
-            <label for="select-button" class="button">Select Photo</label>
+        <div class="container">
+            <div class="box">
+                <div class="product-box-display"></div>
+                <div class="profile_box">
+                    <a class="edit_button" href="edit.html">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <img class="myprofile-image" src="../images/cat.png">
+                    <div class="myprofile-display">
+                        <div class="myprofile-text">HappyCat</div>
+                        <div class="myprofile-text">@C.A.T</div>
+                        <div class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div><br>
+                        <div class="myprofile-text">6 follow 2 Tracking</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <h3>Public profile</h3>
-      <form>
-        <div class="public-profile-size">
-          <input type="text" id="username" name="username" placeholder="Username">
-          <input type="email" id="email" name="email" placeholder="Email">
-          <input type="text" id="location" name="location" placeholder="Location">
-          <textarea id="bio" name="bio" placeholder="Bio"></textarea>
-          <button type="submit" class="button">Save changes</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-<footer></footer>
-<script src="../js/navbar.js"></script>
+    </section>
+    <footer></footer>
+    <script src="../js/profile.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
-
 </html>
