@@ -36,21 +36,6 @@
 .size {
     padding: 10px 5%;
 }
-
-@media screen and (max-width: 800px) {
-    .box {
-      padding: 5px 10px;
-    }
-    .button, .buttonR {
-      padding: 10px 40px;
-      
-    }
-    .function-box {
-        flex-direction: column;
-        align-items: center;
-        width: 60%;
-    }
-  }
   
 /* adv */
 .image-box{
@@ -116,3 +101,22 @@
     color: #A33A3A;
     cursor: point
 }
+
+@media screen and (max-width: 800px) {
+    .box {
+      padding: 5px 10px;
+    }
+    .button, .buttonR {
+      padding: 10px 40px;
+      
+    }
+    .function-box {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+    .adv-box-display {
+        flex-direction: column;
+        width: 90%;
+    }
+  }
