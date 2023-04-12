@@ -93,12 +93,12 @@ section {
     width: 70%;
 }
 .user_messaged_name {
-    font-size: 10px;
+    font-size: 15px;
     color: #3f3f3f;
     margin: 5px 0;
 }
 .last_time {
-    font-size: 15px;
+    font-size: 13px;
     color: #8e8e8e;
 }
 .chat_massage_loop {
