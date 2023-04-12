@@ -39,15 +39,15 @@ function setHeader() {
                     </div>
                 </a>
                 <div class="login-function">
-                    <a href="./profile.html">
+                    <a href="profile.html">
                         <div class="login-icon">
                             <img src="../images/cat.png">
                         </div>
                     </a>
-                    <a href="./chat.html">
+                    <a href="chat.html">
                         <i class="login-button fa-regular fa-comment"></i>
                     </a>
-                    <a href="./index.html">
+                    <a href="index.html">
                         <i class="login-button fa-solid fa-right-to-bracket"></i>
                     </a>
                 </div>
