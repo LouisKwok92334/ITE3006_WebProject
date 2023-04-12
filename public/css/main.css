@@ -1,5 +1,6 @@
 /* box */
 .box {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     padding: 10px 70px;
@@ -36,6 +37,15 @@
     padding: 10px 5%;
 }
 
+@media screen and (max-width: 800px) {
+    .box {
+      padding: 5px 10px;
+    }
+    .button, .buttonR {
+      padding: 10px 40px;
+    }
+  }
+  
 /* adv */
 .image-box{
     display: flex;

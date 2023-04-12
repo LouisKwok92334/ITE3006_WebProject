@@ -44,7 +44,7 @@ function setHeader() {
                             <img src="../images/cat.png">
                         </div>
                     </a>
-                    <a href="./main.html">
+                    <a href="./chat.html">
                         <i class="login-button fa-regular fa-comment"></i>
                     </a>
                     <a href="./index.html">
