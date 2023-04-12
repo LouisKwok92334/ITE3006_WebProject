@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile</title>
+    <title>edit</title>
     <script src="https://kit.fontawesome.com/22b529d74e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/edit.css">
@@ -12,40 +12,17 @@
 </head>
 <body>
     <header></header>
-<section>
-  <div class="box">
-    <div class="function">
-      <a href="profile.html" class="button">Edit profile</a>
-      <a href="profile_password.html" class="button">Change Password</a>
-    </div>
-    <div class="edit-box">
-      <h2>Edit profile</h2>
-      <h3>Profile photo</h3>
-      <div class="profile-photo-size">
-        <div class="myprofile-display">
-          <img src="../images/cat.png" alt="myprofile_image" class="myprofile-image">
+    <section>
+      <div class="edit_container">
+        <div class="edit_function">
+          <span class="edit_button">Edit profile</span>
+          <span class="change_password_button">Change Password</span>
         </div>
-          <div class="photo-text">
-            <p>Clear frontal face photos are an important way for buyers 
-              and sellers to learn about each other.</p>
-            <input type="file" id="select-button" class="hidden-input" name="filename">
-            <label for="select-button" class="button">Select Photo</label>
-        </div>
+        <div class="edit_box"></div>
       </div>
-      <h3>Public profile</h3>
-      <form>
-        <div class="public-profile-size">
-          <input type="text" id="username" name="username" placeholder="Username">
-          <input type="email" id="email" name="email" placeholder="Email">
-          <input type="text" id="location" name="location" placeholder="Location">
-          <textarea id="bio" name="bio" placeholder="Bio"></textarea>
-          <button type="submit" class="button">Save changes</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-<footer></footer>
+    </section>
+  <footer></footer>
 <script src="../js/navbar.js"></script>
+<script src="../js/edit.js"></script>
 </body>
 </html>
