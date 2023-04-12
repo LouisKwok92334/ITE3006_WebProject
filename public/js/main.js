@@ -74,7 +74,6 @@ const productData = [
 
 function setProduct() {
     for (let i = 0; i < productData.length; i++) {
-        console.log(productData[i].photo[0])
         product.innerHTML += /*html*/ `
             <div class="product-box">
                 <a href="./product.html?id=${i}">
