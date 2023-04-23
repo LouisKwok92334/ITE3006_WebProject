@@ -85,3 +85,26 @@
   object-fit: cover;
   margin-bottom: 20px;
 }
+@media (max-width: 600px) {
+  .edit_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .edit_function {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .edit_button,
+  .change_password_button,
+  .select_photo_button,
+  .edit_save_button {
+    width: 90%;
+  }
+
+  .edit_box {
+    width: 100%;
+    padding: 20px;
+  }
+}

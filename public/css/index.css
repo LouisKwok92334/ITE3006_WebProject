@@ -73,3 +73,51 @@ body {
     color: white;
     font-size: 14px;
 }
+@media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      padding: 20px 10px;
+    }
+  
+    .nav-links {
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .brand {
+      font-size: 24px;
+    }
+  
+    .nav-links li a {
+      font-size: 14px;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box-image {
+      width: 80%;
+      height: auto;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .box-text {
+      font-size: 24px;
+    }
+  
+    .use-now-button {
+      font-size: 14px;
+      padding: 10px 24px;
+    }
+  
+    .copyright-container {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  }
+  

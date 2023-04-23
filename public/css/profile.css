@@ -1,101 +1,183 @@
-.title {
-    font-size: 30px; 
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 30px;
     margin-left: 110px;
     font-weight: bold;
-}
-
-/* Container */
-.container {
+  }
+  
+  /* Container */
+  .container {
     display: flex;
     justify-content: center;
     padding: 0 50px;
-}
-
-/* product */
-.product-box-display {
+  }
+  
+  /* product */
+  .product-box-display {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.product-box {
+  }
+  
+  .product-box {
     display: flex;
     flex-direction: column;
     background-color: #CEE8EA;
     border-radius: 30px;
     margin: 37px;
-}
-
-.product-image {
+  }
+  
+  .product-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
     border-radius: 30px 30px 0 0;
     width: 200px;
     height: 160px;
     cursor: pointer;
     object-fit: cover;
-}
-
-.product-text {
+  }
+  
+  .product-text {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 17px;
     height: 100px;
-}
-
-.product-name {
+  }
+  
+  .product-name {
     font-weight: bold;
-}
-
-.product-cost {
+  }
+  
+  .product-cost {
     font-size: 14px;
-}
-
-/* My profile */
-.box {
+  }
+  
+  /* My profile */
+  .box {
     display: flex;
     justify-content: center;
     margin: 6px 50px;
-}
-.profile_box {
+  }
+  
+  .profile_box {
     background-color: #CEE8EA;
-    height: 350px;
+    height: 390px;
     padding: 30px 60px;
     font-size: 20px;
     border-radius: 30px;
-}
-.edit_button {
+  }
+  
+  .edit_button {
     display: flex;
     justify-content: flex-start;
     font-size: 20px;
     color: black;
-}
-.edit_button :hover{
+  }
+  
+  .edit_button:hover {
     color: #5d5d5d;
-}
-.myprofile-image {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .myprofile-image {
     border-radius: 50%;
     width: 180px;
     height: 180px;
     cursor: pointer;
     object-fit: cover;
-    margin-bottom: 20px; 
-}
-
-.myprofile-display {
+    margin-bottom: 20px;
+  }
+  
+  .myprofile-display {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.myprofile-text {
+  }
+  
+  .myprofile-text {
     margin-bottom: 8px;
-}
-.star-rating {
+  }
+  
+  .star-rating {
     display: flex;
     justify-content: space-between;
     width: 100px;
-}
-
-.star-rating .fas {
+  }
+  
+  .star-rating .fas {
     color: rgb(0, 0, 0);
-}
+  }
+  
+  /* Buttons */
+  .button, .buttonR, .product_bid {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product_bid {
+    cursor: pointer;
+    background-color: #3A9CA3;
+    color: white;
+    border: none;
+  }
+  
+@media (max-width: 600px) {
+    .title {
+      font-size: 24px;
+      margin-left: 20px;
+    }
+  
+    .container {
+      padding: 0 20px;
+    }
+  
+    .product-box-display {
+      margin: 0;
+    }
+  
+    .product-box {
+      margin: 20px;
+    }
+  
+    .product-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .box {
+      margin: 20px 0;
+    }
+  
+    .profile_box {
+      height: auto;
+      padding: 20px 40px;
+    }
+  
+    .myprofile-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .edit_button {
+      font-size: 16px;
+    }
+  
+    .myprofile-text {
+      font-size: 16px;
+    }
+  }
+  

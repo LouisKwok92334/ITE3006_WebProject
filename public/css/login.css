@@ -184,3 +184,73 @@ body {
     color: white;
     font-size: 14px;
 }
+@media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      padding: 20px 10px;
+    }
+  
+    .nav-links {
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .brand {
+      font-size: 24px;
+    }
+  
+    .nav-links li a {
+      font-size: 14px;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .login-form,
+    .create-form {
+      width: 90%;
+      padding: 0 10px;
+    }
+  
+    .box-image {
+      width: 80%;
+      height: auto;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .title {
+      font-size: 32px;
+    }
+  
+    .login-text,
+    .create-text {
+      font-size: 18px;
+    }
+  
+    .login-input,
+    .create-input {
+      font-size: 14px;
+    }
+  
+    .login-button,
+    .create-button {
+      font-size: 14px;
+      padding: 10px 24px;
+    }
+  
+    .create_account_title,
+    .back_login_title {
+      font-size: 14px;
+    }
+  
+    .copyright-container {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  }
+  
