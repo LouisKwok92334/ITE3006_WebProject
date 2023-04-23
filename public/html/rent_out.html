@@ -27,6 +27,13 @@
         </div>
     </section>
     <footer></footer>
+    <script>
+        document.getElementById('select-button').addEventListener('change', function() {
+            if (this.files && this.files[0]) {
+                window.location.href = 'details.html';
+            }
+        });
+    </script>
     <script src="../js/navbar.js"></script>
 </div>
 </body>

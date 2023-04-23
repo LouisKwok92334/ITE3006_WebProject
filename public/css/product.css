@@ -70,7 +70,7 @@ section {
     background-color: #CEE8EA;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     section {
       padding: 0 20px;
     }
@@ -82,6 +82,7 @@ section {
   
     .product_photo_container {
       flex-direction: column;
+      align-items: center;
     }
   
     .product_container {
