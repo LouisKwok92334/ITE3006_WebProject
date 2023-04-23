@@ -154,10 +154,15 @@ body {
     .image-box {
       margin: 15px 20px;
     }
-  
+    .image-box {
+        display: flex;
+        justify-content: center;
+        margin: 20px 70px;
+      }
+      
     .adv-box-display {
+        margin-top: 50px;
       flex-direction: column;
-      gap: 10px;
     }
   }
   
