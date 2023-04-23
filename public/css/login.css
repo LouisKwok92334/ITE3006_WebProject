@@ -79,16 +79,18 @@ body {
     padding: 15px 20px;
 }
 .login-button{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     background-color: #3A9CA3;
     border-radius: 70px;
     font-size: 16px;
-    color: #FFFFFF;
-    margin-top: 20px;
+    color: white;
     padding: 15px 32px;
     cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border: none;
+}
+.login-button:hover {
+    background-color: #2E7B84;
 }
 .error_display {
     background-color: #ffd4d7;
@@ -144,16 +146,18 @@ body {
     padding: 15px 20px;
 }
 .create-button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     background-color: #3A9CA3;
     border-radius: 70px;
     font-size: 16px;
-    color: #FFFFFF;
-    margin-top: 20px;
+    color: white;
     padding: 15px 32px;
     cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border: none;
+}
+.create-button:hover {
+    background-color: #2E7B84;
 }
 .back_login_title {
     display: flex;

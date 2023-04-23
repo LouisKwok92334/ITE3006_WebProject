@@ -17,14 +17,20 @@
             <form id="myForm">
                 <h2>What are you renting today?</h2>
                 <label for="type">Type:</label>
-                <input type="text" id="type" name="type" class="textarea" required>
+                <select id="type" name="type" class="textarea" class="detail-select" required>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="services">Services</option>
+                    <option value="cars">Cars</option>
+                    <option value="property">Property</option>
+                </select>
 
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" class="textarea" required>
 
                 <h3>About product</h3>
                 <label for="newness">Newness:</label>
-                <select id="newness" name="newness" class="textarea" required>
+                <select id="newness" name="newness" class="detail-select" required>
                     <option value="100">100%</option>
                     <option value="70">70%</option>
                     <option value="50">50%</option>
@@ -35,7 +41,7 @@
                 <input type="number" id="deposit" name="deposit" class="textarea" required>
 
                 <label for="price">Price (HKD$):</label>
-                <input type="number" id="price" name="price"  class="textarea"required>
+                <input type="number" id="price" name="price"  class="textarea" required>
 
                 <label for="rental_days">Rental days:</label>
                 <input type="number" id="rental_days" name="rental_days" class="textarea" required>
@@ -55,10 +61,10 @@
                 
                 </div>
 
-                <h3>Select more photos</h3>
-                <input type="file" id="select_photos" name="photos" class="textarea" multiple>
+                <input type="file" id="select-button" class="hidden-input" name="filename">
+                <label for="select-button" class="select-button">Select Photo</label>
 
-                <button type="submit">Submit</button>
+                <button type="submit" class ="submit-button">Submit</button>
             </form>
         </div>
     </section>

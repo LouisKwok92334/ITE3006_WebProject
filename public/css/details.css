@@ -40,7 +40,7 @@ label.checkbox-label {
     outline: none;
 }
 
-select {
+.detail-select{
     width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -58,20 +58,41 @@ input[type="checkbox"] {
     align-items: center;
 }
 
-button {
+.submit-button {
     background-color: #3A9CA3;
     border: none;
-    border-radius: 5px;
+    border-radius: 70px;
     color: white;
-    padding: 10px 40px;
-    text-decoration: none;
+    padding: 15px 32px;
     font-size: 16px;
     margin: 20px 0;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
     background-color: #2E7B84;
+}
+
+.select-button {
+    justify-content: center;
+    background-color: #3A9CA3;
+    border-radius: 70px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    cursor: pointer;
+    width: 15%;
+}
+.select-button:hover {
+    background-color: #2E7B84;
+}
+.select-button:last-child {
+    margin-right: 0;
+}
+.hidden-input {
+    display: none;
 }
 
 @media (max-width: 600px) {

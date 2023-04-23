@@ -58,6 +58,10 @@ body {
     padding: 15px 32px;
     cursor: pointer;
     margin-top: 20px;
+    border: none;
+}
+button:hover {
+  background-color: #2E7B84;
 }
 
 /* footer */
