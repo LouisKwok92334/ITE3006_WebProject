@@ -39,7 +39,12 @@ function edit_form() {
         <div class="public_profile_size">
             <input type="text" id="username" name="username" placeholder="Username">
             <input type="email" id="email" name="email" placeholder="Email">
-            <input type="text" id="location" name="location" placeholder="Location">
+            <select id="location" class="select-location">
+                <option value="HK">Hong Kong</option>
+                <option value="TW">Tai Wan</option>
+                <option value="JP">Japan</option>
+                <option value="MU">Macau</option>
+            </select>
             <textarea rows="5" id="bio" name="bio" placeholder="Bio"></textarea>
             <button type="submit" class="edit_save_button">Save changes</button>
         </div>

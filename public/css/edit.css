@@ -77,6 +77,12 @@
   padding: 10px;
   margin-bottom: 10px;
 }
+.select-location{
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 
 .myprofile-image {
   border-radius: 50%;
