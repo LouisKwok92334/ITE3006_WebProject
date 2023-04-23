@@ -43,7 +43,7 @@ const productData = [
         "userID": 10
     },
     {
-        "name": "Samsung Galaxy S2",
+        "name": "Samsung Galaxy",
         "price": 900,
         "photo": ["galaxyS22u.jpg", "galaxyS22u-1.jpg", "galaxyS22u-2.jpg"],
         "type": "Electronics",

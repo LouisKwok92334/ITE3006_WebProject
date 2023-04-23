@@ -22,11 +22,11 @@ const productData = [
         "userID": 1
     },
     {
-        "name": "Samsung Galaxy S2",
-        "price": 900,
-        "photo": ["galaxyS22u.jpg", "galaxyS22u-1.jpg", "galaxyS22u-2.jpg"],
-        "type": "Electronics",
-        "userID": 1
+        "name": "Honda Civic",
+        "price": 22000,
+        "photo": ["hondaCivic.jpg", "hondaCivic-1.jpg", "hondaCivic-2.jpg"],
+        "type": "Cars",
+        "userID": 10
     },
     {
         "name": "Gucci Handbag",
