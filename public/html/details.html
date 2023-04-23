@@ -17,14 +17,14 @@
             <form id="myForm">
                 <h2>What are you renting today?</h2>
                 <label for="type">Type:</label>
-                <input type="text" id="type" name="type" required>
+                <input type="text" id="type" name="type" class="textarea" required>
 
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" class="textarea" required>
 
                 <h3>About product</h3>
                 <label for="newness">Newness:</label>
-                <select id="newness" name="newness" required>
+                <select id="newness" name="newness" class="textarea" required>
                     <option value="100">100%</option>
                     <option value="70">70%</option>
                     <option value="50">50%</option>
@@ -32,13 +32,13 @@
                 </select>
 
                 <label for="deposit">Deposit (HKD$):</label>
-                <input type="number" id="deposit" name="deposit" required>
+                <input type="number" id="deposit" name="deposit" class="textarea" required>
 
                 <label for="price">Price (HKD$):</label>
-                <input type="number" id="price" name="price" required>
+                <input type="number" id="price" name="price"  class="textarea"required>
 
                 <label for="rental_days">Rental days:</label>
-                <input type="number" id="rental_days" name="rental_days" required>
+                <input type="number" id="rental_days" name="rental_days" class="textarea" required>
 
                 <label for="description">Product description (optional):</label>
                 <textarea id="description" name="description"></textarea>
@@ -56,7 +56,7 @@
                 </div>
 
                 <h3>Select more photos</h3>
-                <input type="file" id="select_photos" name="photos" multiple>
+                <input type="file" id="select_photos" name="photos" class="textarea" multiple>
 
                 <button type="submit">Submit</button>
             </form>
