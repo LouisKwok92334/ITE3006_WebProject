@@ -103,3 +103,9 @@ a {
     color: white;
     font-size: 14px;
 }
+
+@media (max-width : 900px) {
+    .navbar-button {
+        display: none;
+    }
+}
