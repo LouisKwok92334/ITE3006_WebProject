@@ -38,16 +38,16 @@
                 </select>
 
                 <label for="deposit">Deposit (HKD$):</label>
-                <input type="number" id="deposit" name="deposit" class="textarea" required>
+                <input type="number" id="deposit" name="deposit" class="textarea"  min="0" required>
 
                 <label for="price">Price (HKD$):</label>
-                <input type="number" id="price" name="price"  class="textarea" required>
+                <input type="number" id="price" name="price"  class="textarea"  min="0" required>
 
                 <label for="rental_days">Rental days:</label>
-                <input type="number" id="rental_days" name="rental_days" class="textarea" required>
+                <input type="number" id="rental_days" name="rental_days" class="textarea"  min="0" required>
 
                 <label for="description">Product description (optional):</label>
-                <textarea id="description" name="description"></textarea>
+                <textarea id="description" name="description" class="description"></textarea>
 
                 <div class="checkbox-container">
                     <label for="mail_delivery">Mail and home delivery</label>

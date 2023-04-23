@@ -3,11 +3,11 @@ body {
 }
 
 .size {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 40px;
-    background-color: white;
-    border-radius: 10px;
+    background-color: #cee8ea;
+    border-radius: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,20 +33,20 @@ label.checkbox-label {
 }
 
 .textarea {
+    border-radius: 15px;
+    border: none;
     padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    outline: none;
+    margin-bottom: 10px;
 }
-
+.description {
+    border-radius: 15px;
+    padding: 30px;
+}
 .detail-select{
-    width: 100%;
+    border-radius: 15px;
+    border: none;
     padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    outline: none;
+    margin-bottom: 10px;
 }
 
 .checkbox-container {
