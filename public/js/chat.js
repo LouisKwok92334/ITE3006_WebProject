@@ -1,4 +1,6 @@
 const chat_list = document.querySelector(".chat_user_list");
+const message_box = document.querySelector(".chat_massage_loop");
+const input_message = document.querySelector('.message_input');
 let chat_id = 0;
 
 const product_data = [
@@ -63,3 +65,15 @@ function setChatList() {
         `
     }
 }
+
+input_message.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter' && input_message.value != "") {
+        console.log(123)
+        message_box.innerHTML += /*html*/ `
+        <div class="send_message_container">
+            <span class="send_message">${input_message.value}</span>
+        </div>
+        `
+        input_message.value = "";
+    }
+});

@@ -55,14 +55,13 @@ function setHeader() {
             <div class="search-bar-display">
                 <div class="search-bar">
                 <select id="location" class="location-select" required>
-                <option value="HK">Hong Kong</option>
-                <option value="TW">Tai Wan</option>
-                <option value="JP">Japan</option>
-                <option value="MU">Macau</option>
-            </select>
-
-                    <input class="text-input" type="text" placeholder="🔍 Search for anything and everything">
-                    <input class="search-button" type="button" value="Search">                
+                    <option value="HK">Hong Kong</option>
+                    <option value="TW">Tai Wan</option>
+                    <option value="JP">Japan</option>
+                    <option value="MU">Macau</option>
+                </select>
+                <input class="text-input" type="text" placeholder="🔍 Search for anything and everything">
+                <input class="search-button" type="button" value="Search">                
                 </div>
             </div>
         </div>
