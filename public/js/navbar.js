@@ -4,6 +4,27 @@ const bottom = document.querySelector("footer");
 function setHeader() {
     herder.innerHTML += /*html*/ `
         <div class="navbar-format-display">
+            <nav class="navigation" role="navigation">
+                <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="./main.html">
+                        <li>                
+                            <span class="navbar-title_2">CHANGE</span>
+                        </li>
+                    </a>
+                    <a href="#"><li>Electronics</li></a>
+                    <a href="#"><li>Fashion</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>Cars</li></a>\
+                    <a href="#"><li>Property</li></a>
+                    <a href="#"><li>All Property</li></a>
+                </ul>
+                </div>
+            </nav>
             <div class="navbar-button-format">
                 <a href="./main.html">
                     <span class="navbar-title">CHANGE</span>
